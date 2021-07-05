@@ -48,7 +48,7 @@
     padding-top: 30px;
     background-image: url(img/about-me-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
 }
 .about-content{
     width: 100%;
@@ -69,4 +69,56 @@
 .about-right p{
     color: dimgray;
     margin: 30px 0;
+}
+
+/* recipe section css */
+.recipe{
+    width: 100%;
+    margin-top: 120px;
+}
+.my-recipe{
+    text-align: center;
+}
+.my-recipe h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(66, 66, 66);
+}
+.my-recipe p{
+    color: dimgray;
+    margin: 30px 0;
+}
+.recipe-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.recipe-1{
+    width: 27%;
+    box-shadow: 0px 0px 10px dimgray;
+    padding: 20px;
+    border-radius: 25px;
+}
+.recipe-1 h4{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.recipe-1 p{
+    color: dimgray;
+}
+
+/* footer css */
+footer{
+    width: 100%;
+    margin-top: 120px;
+    padding: 80px 0;
+    text-align: center;
+    background-color: black;
+}
+footer h1{
+    color: gray;
+}
+footer p{
+    color: dimgray;
+    margin-top: 20px;
 }
