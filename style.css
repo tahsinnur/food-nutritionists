@@ -117,6 +117,8 @@ footer{
 }
 footer h1{
     color: gray;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 footer p{
     color: dimgray;
