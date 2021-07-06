@@ -30,6 +30,9 @@ header{
     font-size: 20px;
     font-weight: 500;
 }
+.nab-bar ul li a:hover{
+    color: orange;
+}
 /* css for banner */
 .banner{
     width: 100%;
@@ -187,15 +190,17 @@ footer{
     width: 100%;
     margin-top: 120px;
     padding: 80px 0;
-    text-align: center;
     background-color: black;
 }
-footer h1{
+.footer-content{
+    text-align: center;
+}
+.footer-content h1{
     color: gray;
     font-size: 25px;
     text-transform: uppercase;
 }
-footer p{
+.footer-content p{
     color: dimgray;
     margin-top: 20px;
 }
